@@ -112,5 +112,5 @@ labels:
   - name: C-suite
     description: Hosts belonging to the C-suite
     label_membership_type: manual
-    Host:
+    hosts:
 
