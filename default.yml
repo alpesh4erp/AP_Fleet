@@ -17,8 +17,8 @@ org_settings:
 
   webhook_settings:
     activities_webhook:
-      enable_activities_webhook:true
-      destination_url: www.tcs.com
+      enable_activities_webhook: true
+      destination_url: https://www.tcs.com
   org_info:
     ###########################################################
     # The name of your organization is displayed to end users
