@@ -1,6 +1,6 @@
 - name: Department - Engineering 
   description : all of the eng team
-  lable_membership_type : host_vitals
+  label_membership_type : host_vitals
   criteria : 
     vital : end_user_idp_department
     value : Engineering
@@ -10,6 +10,5 @@
   platform: darwin
   description: Host wilt an uptime greater than 30 days 
   query : SELECT 1 from uptime where days > 30
-  lable_membership_type : dynamic
+  label_membership_type : dynamic
 
-  
