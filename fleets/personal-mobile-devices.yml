@@ -46,6 +46,9 @@ controls:
       # … e.g.
       # - path: ../lib/ios/declaration-profiles/Passcode settings.json
       # - path: ../lib/ios/configuration-profiles/self-service.mobileconfig
+      - path : ../platform/ios/configuration_profiles/passcode-settings.json
+          labels_exclude_any:
+            -C-Suite
   android_settings:
     configuration_profiles:
     certificates:
@@ -113,4 +116,23 @@ labels:
     description: Hosts belonging to the C-suite
     label_membership_type: manual
     hosts:
+
+
+controls:
+  scripts: 
+    - paths: ../platform/windows/Script/*.ps1
+
+controls:
+  enable_disk_encryption:true
+  enable_recovery_lock_password: true
+
+controls:
+  ipados_updates:
+    deadline: "2026-07-30"
+    minimum_version: "26.2"
+
+
+
+
+
 
